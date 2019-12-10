@@ -1,0 +1,276 @@
+﻿
+body {
+	margin: 0;
+	padding: 0;
+	background: url(images/body_bg.jpg) ;
+	text-align: justify;
+	font-family: "Tahoma", Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #8F8F8f;
+}
+
+
+
+news {
+  margin: 0;
+  padding: 0;
+  background: #ccc;
+  position:fixed;
+}
+ 
+.nav ul {
+	
+  list-style: none;
+  background-color: #50a098;
+  text-align: right;
+  padding: 5px;
+  margin:0;
+  }
+.nav li {
+  font-family: "Tahoma", Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+      text-align: center;
+
+}
+ 
+.nav a:hover {
+  background-color: #005f5f;
+    text-align: center;
+
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+ 
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+ 
+  /* Option 1 - Display Inline */
+  .nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+
+
+
+#hamish {
+	margin-right: 100px;
+		margin-left: 100px;
+background:#FFFFFF;
+	border-style:groove;
+	border-color:grey;
+
+}
+h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+.image2 {
+ top:10; 
+ right:0;
+position:absolute;
+}
+
+h2 {
+	text-transform: lowercase;
+	letter-spacing: -1px;
+	font-size: 26px;
+	font-weight: normal;
+	color: #31576F;
+}
+
+h2 em {
+	font-weight: bold;
+	font-style: normal;
+}
+
+h3 {
+	height: 25px;
+	
+	padding: 13px 20px 0 0;
+	text-transform: lowercase;
+	font-size: 11px;
+	color: #FFFFFF;
+}
+#buildings {
+
+}
+#buildings h1 {
+	height: 40px;
+	text-align: right;
+	
+	padding: 15px 30px 15px 0;
+	text-transform: lowercase;
+	font-size: 20px;
+	color: #FFFFFF;
+	margin-left:90px;
+margin-right:90px;
+margin-top:0;
+border-radius:20px;
+}
+
+
+a {
+	color: #6B6BB;
+}
+
+a:hover {
+	text-decoration: none;
+}
+table{
+	
+	margin-bottom:0px;
+	border-color:black;
+	background-color:white;
+	border-left:none;
+		border-right:none;
+
+}
+th {
+	border-color:black;
+	background:white;
+	padding:0;
+	border-left:none;
+}
+
+
+/* Header */
+
+#header {
+
+	background-repeat:repeat-x;
+	background-size:100%;
+	
+	width: 100;
+	height: 160px;
+	margin-top: 0 auto;
+}
+
+#header * {
+	
+	margin: 0;
+	padding: 0;
+	text-transform: lowercase;
+	color: #FFFfFF;
+}
+
+#header h1 {
+	float: right;
+	padding: 90px 230px 10px 10px;
+	font-size: 33px;
+	color:#00334d;
+	 text-shadow: 2px 2px 5px #005580;
+}
+
+#header h2 {
+	float: right;
+	padding: 125px 0 0 10px;
+	font-size: 11px;
+	font-weight: normal;
+		color:#00334d;
+
+}
+
+#header ul {
+	float: left;
+	margin: 0px 10px 10px 10px;
+	padding: 10px 10px 0 0;
+	list-style: none;
+ top:0; 
+ left:0;
+ position:absolute;
+
+
+}
+#header li {
+	display: inline;
+	margin:6px;
+
+
+}
+
+
+
+
+
+
+#uu li
+{
+		display: inline;
+margin:40px;
+}
+
+#uu p
+{
+	position:left;
+	
+}
+
+
+
+
+/* Footer */
+
+#footer {
+    padding-bottom:0;
+    	clear: both;
+	width: 100%;
+	margin: 0 auto;
+	padding: 37px 0;
+	background: white url(images/bio_chem_01.jpg) repeat-x;
+
+}
+
+#footer p {
+	margin: 0;
+	text-align: center;
+	text-transform: lowercase;
+}
+
+div.content {
+ position:right;
+}
+div.side {
+    height: 90px;
+    top: 250px;
+    right: 0;
+    width: 100%
+    padding: 10px;
+}
+div.side ul {
+    margin:0;
+    padding: 0;
+margin-right:400px ;
+display:inline;
+
+}
+div.side ul li {
+        display: inline;
+    margin: 20px;
+  text-decoration: none;
+    color: #fff;
+
+}
+
+
+

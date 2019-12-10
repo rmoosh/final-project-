@@ -1,0 +1,124 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+   
+    text-align: center;
+}
+
+    
+
+
+
+.header_container{
+    width:100%;
+    height:120px;
+    margin:0px;
+   background:#DCDCDC;
+    }
+	
+#logo{  
+    float:center;
+     width:250px;
+    height:95px;
+}
+
+li{display:inline}
+ul{overflow:hidden}
+    
+
+    
+
+
+#menu a{
+    color: #696969; 
+    padding: 10px; 
+    margin: 5px; 
+    text-align:center; 
+    font-size:25px; 
+    font-family:microsoft himalaya;
+    text-decoration:none;
+    
+        }
+
+#menu a:hover{
+    color:#2E8B57;
+    text-decoration:underline;
+    }
+
+    
+    
+#content_area{
+    width:100%;
+    height:auto;
+    float:center;
+    background-image:url("images/a.jpg")
+    }
+    
+    
+textarea{
+    height:60px;
+}
+
+
+#footer{
+    width:100%;
+    height:130px;
+    background:  rgb(128,128,128);
+    clear:both;
+    color:white;
+    }
+    
+.pic img{
+    width:16px;
+}
+
+
+th,td{
+border-bottom: 1px solid #ddd;
+        
+}
+table{height:30px;
+width:500px;}
+ 
+  
+.control-label {
+	font-size:25px;
+}
+
+.control-input {
+	font-size:15px;
+	width:190px;
+}
+
+.btn {	
+	width:300px;
+	height:20px;
+    
+}
