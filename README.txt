@@ -38,14 +38,10 @@ these code have html,css,js files
 * [breakpoints](https://www.npmjs.com/package/breakpoints-js#install-from-bower) - is a lightweight, pure javascript library for attaching          callbacks to breakpoints.
 
 
+## future addition
+Add a javascript course certificate and other courses and experiences.
 
 
 
 
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
 
